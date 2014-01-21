@@ -1,0 +1,166 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #FFF;
+	background-color: #35AFDC;
+}
+
+.navbar-nav>li {
+	float: left;
+	height: 68px;
+	font-size: larger;
+}
+
+.navbar-default .navbar-nav>li>a{
+	height: 69px;
+	font-size: 110%;
+}
+
+.navbar-nav>li>a {
+	padding-top: 23px;
+	padding-bottom: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #fff;
+	background-color: #69c8ea;
+}
+
+.app-container{
+	margin-top: 50px;
+	background-color: #fff; 
+}
+
+.popover {
+	max-width: 1024px;
+	display: block;
+
+}
+
+.container-separator{
+	border: 1px solid #C5C5C5;
+	margin-bottom: 20px;
+}
+
+.dataTables_filter{
+	padding: 10px;
+	background-color: #F8F8F8;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.btn-primary{
+	background-color: #00AEEF;
+	border-color: #00AEEF;  
+}
+
+.btn-primary:hover{
+	background-color: #35AFDC;
+	border-color: #35AFDC;  
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #35AFDC;
+	border-color: #35AFDC;
+}
+
+.btn-primary:focus{
+	outline: 5px auto #35AFDC;
+	outline-offset: -2px;
+}
+
+button.smartfilter-active{
+	background-color: #69C8EA;
+	border-color: #69C8EA;
+	color: white;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.btn-group-sm>.btn {
+	border-radius: 0px;
+}
+
+.dataTables_filter .btn-primary{
+	background-color: #69C8EA;
+	border-color: #69C8EA;  
+}
+
+.dataTables_filter .btn-primary:hover{
+	background-color: #69C8EA;
+	border-color: #69C8EA;  
+}
+
+.dataTables_filter .btn-primary:hover, .dataTables_filter .btn-primary:focus, .dataTables_filter .btn-primary:active, .dataTables_filter .btn-primary.active, .dataTables_filter .open .dropdown-toggle.btn-primary {
+	background-color: #69C8EA;
+	border-color: #69C8EA;
+	color: white;
+}
+
+.dataTables_filter .btn-primary:focus{
+	outline: 5px auto #69C8EA;
+	outline-offset: -2px;
+}
+
+.loader{
+	font-size: 120%;
+	color:#777;
+	width: 64px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-body{
+	display: none;
+}
+
+.loader-table {
+	font-size: 120%;
+	color: #777;
+	width: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22px;
+}
+
+@media (max-width:985px) {
+	tr>th:nth-child(7),tr>td:nth-child(7) {
+		visibility:hidden;
+		display:none;
+	}
+}
+
+@media (max-width:767px) {
+	#example_filter .btn-group span{
+		font-size: 124%;
+	}
+	tr>th:nth-child(5),tr>td:nth-child(5){
+		visibility:hidden;
+		display:none;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width:630px) {
+	tr>th:nth-child(6),tr>td:nth-child(6){
+		visibility:hidden;
+		display:none;
+	}
+}
+
+@media (max-width:480px) {
+	tr>th:nth-child(1),tr>td:nth-child(1){
+		visibility:hidden;
+		display:none;
+	}
+}
+
