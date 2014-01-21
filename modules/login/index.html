@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Billpocket</title>
+		<link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+              <a class="navbar-brand active" href="#">
+                <img src="../../assets/images/logo.png">
+              </a>
+            </div>
+        </div>
+
+        <div class="containersd app-container">
+            <form class="form-signin" data-bind="submit: loginAction">
+                <fieldset>
+                    <h2 class="form-signin-heading">Iniciar Sesión</h2>
+                    <p class="text-danger" data-bind="text: message"/></p>
+                    <input type="text" class="form-control" data-bind="value: username" placeholder="Ej. test@billpocket.com" autofocus>
+                    <input type="password" class="form-control" data-bind="value: password" placeholder="Contraseña">
+                    <button type="submit" class="btn btn-lg btn-primary btn-block sign-in" data-bind="disable : disableLoginButtonState" >Autenticar</button>
+                </fieldset>
+            </form>
+        </div>
+        <script src="../../lib/jquery/jquery.js"></script>
+        <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../lib/knockout/knockout-3.0.0.js"></script>
+        <script type="text/javascript" src="script/app.js"></script>
+	</body>
+</html>
