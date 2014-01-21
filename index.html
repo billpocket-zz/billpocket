@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Billpocket</title>
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header">
+					<a class="navbar-brand active" href="#">
+						<img src="assets/images/logo.png">
+					</a>
+				</div>
+		</div>
+
+		<div class="container app-container">
+			<div class="bs-example">
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<img src="assets/images/diagramaclases.png" style="width: 300px; height: 200px;">
+								<div class="caption">
+									<h3>Diagrama de Clases</h3>
+									<p>Muestra las clases del sistema y las relaciones entre las mismas.</p>
+									<p class="right-aligment"><a href="docs/diagramas/diagramaclases.png" class="btn btn-lg btn-primary" role="button">Ver</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<img src="assets/images/iniciarsesion.png" style="width: 300px; height: 200px;">
+								<div class="caption">
+									<h3>Vista de Login</h3>
+									<p>Enlace hacia la vista de Login. El <b>usuario</b> para una correcta autenticaci&oacute;n es <b>test@billpocket.com</b>. El <b>password</b> es <b>123</b>.</p>
+									<p class="right-aligment"><a href="modules/login/" class="btn btn-lg btn-primary" role="button">Ver</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<img src="assets/images/transacciones.png" style="width: 300px; height: 200px;">
+								<div class="caption">
+									<h3>Vista Transacciones</h3>
+									<p>Enlace hacia la vista de las transacciones. Tambi&eacute;n se puede acceder desde la vista de Login.</p>
+									<p class="right-aligment"><a href="modules/transacciones/" class="btn btn-lg btn-primary" role="button">Ver</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+		<script src="lib/jquery/jquery.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/knockout/knockout-3.0.0.js"></script>
+		<script type="text/javascript" src="script/app.js"></script>
+	</body>
+</html>

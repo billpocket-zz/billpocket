@@ -1,0 +1,63 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+}
+
+.app-container{
+	margin-top: 60px;
+	background-color: #fff; 
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.btn {
+ 	border-radius: 0px;
+}
+
+.btn-primary{
+	background-color: #00AEEF;
+	border-color: #00AEEF;  
+}
+
+.btn-primary:hover{
+	background-color: #35AFDC;
+	border-color: #35AFDC;  
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #35AFDC;
+	border-color: #35AFDC;
+}
+
+.btn-primary:focus{
+	outline: 5px auto #35AFDC;
+	outline-offset: -2px;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.navbar-text {
+	float: left;
+	margin-top: 24px;
+	margin-bottom: 15px;
+}
+
+.bs-example {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #FFF;
+	border-width: 1px;
+	border-color: #DDD;
+	border-radius: 4px 4px 0 0;
+	box-shadow: none;
+}
+
+.caption p.right-aligment{
+	text-align: right;
+}
